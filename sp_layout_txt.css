@@ -17,6 +17,9 @@
 
 img {
    display: block;
+} img#logo {
+   grid-column: span 3;
+   width: 100%;
 }
 
 
@@ -41,6 +44,9 @@ body {
    grid-template-columns: 25% 25% 25% 25%;
 }
 
+nav.horizontal, footer {
+   grid-column: span 4;
+}
 
 
 
