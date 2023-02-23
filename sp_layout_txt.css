@@ -15,7 +15,9 @@
 
 /* Window and Body Styles */
 
-
+img {
+   display: block;
+}
 
 
 /* CSS Grid Styles */
@@ -30,6 +32,13 @@ body {
    max-width: 960px;
    margin-left: auto;
    margin-right: auto;
+   min-height: 100%;
+   margin: auto;
+}
+
+body {
+   display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
 }
 
 
